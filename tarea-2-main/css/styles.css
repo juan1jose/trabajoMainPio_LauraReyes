@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+
+.nav-item {
+    padding: 10px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.container-fluid {
+    padding: 0 50px;
+}
+
+.btn-theme {
+    margin-right: 30px;
+
+}
+
+.container-body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+    transition: all ease 0.9;
+}
+
+.boton-container-center {
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    color: rgb(0, 0, 0);
+    transition: all ease 0.9;
+}
+
+.img-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.social-media {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.social-media a {
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.social-media a:last-child {
+    margin-bottom: 0;
+}
+
+.about-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+.about-section img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.about-section .row {
+    margin-top: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.about-section .col-md-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#floatingTextarea {
+    height: 300px;
+}
+
+.formulario {
+    max-width: 800px; /* Cambia a max-width para mejor flexibilidad */
+    /* background-color: rgb(255, 255, 255); */
+    padding: 50px; 
+    border-radius: 5px; 
+    margin: auto; /* Centrar horizontalmente */
+    /* color: rgb(135, 135, 135); */
+}
+
+.titulo_c {
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+
+.form-floating .ingreso {
+    /* background-color: rgb(244, 242, 242); */
+}
+
+.setion_formulario {
+    padding: 30px;
+    /* background-color: rgb(212, 212, 212); */
+}
